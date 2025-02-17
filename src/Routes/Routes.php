@@ -132,7 +132,6 @@ class Routes
             (new ApiProductController())->getCategories();
         });
         
-        // Añade aquí otras rutas API...
         
         
 
