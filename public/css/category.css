@@ -1,0 +1,164 @@
+/** CONTENEDOR **/
+#categoryContainer{
+    width: 70dvw;
+    margin: 0 auto; 
+}
+
+#categoryTitle {
+    text-align: center; /* Centrar el título */
+    font-size: 2rem; /* Tamaño de fuente más grande */
+    margin-bottom: 20px; /* Espacio debajo del título */
+    color: #333333; /* Color del texto del título */
+
+}
+
+/* Estilos para la tabla */
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px auto; /* Centrar la tabla */
+    font-size: 1em;
+    min-width: 450px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border-radius: 5px; /* Bordes redondeados */
+    overflow: hidden; /* Para que los bordes redondeados se vean bien */
+}
+
+.styled-table thead tr {
+    background-color: #2C3E50; /* Color de fondo del encabezado */
+    color: #ffffff; /* Color del texto */
+    text-align: left;
+}
+
+.styled-table th, .styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd; /* Línea divisoria entre filas */
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f9f9f9; /* Color de fondo para filas pares */
+}
+
+.styled-table tbody tr:hover {
+    background-color: #f1f1f1; /* Color al pasar el ratón sobre una fila */
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879; /* Línea divisoria en la última fila */
+}
+
+/* Estilos para el formulario de categoría */
+.category-form {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ffffff; /* Color de fondo del formulario */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px; /* Ancho máximo del formulario */
+    margin-left: auto; /* Centrar horizontalmente */
+    margin-right: auto; /* Centrar horizontalmente */
+}
+
+/* Estilo para el título del formulario y la tabla */
+.category-form h2,
+.styled-table h2 {
+    text-align: center; /* Centrar el título */
+    color: #333333; /* Color del texto del título */
+}
+
+/* Espaciado adicional para los títulos */
+.category-form h2 {
+    margin-bottom: 15px; /* Espacio debajo del título del formulario */
+}
+
+.styled-table h2 {
+    margin-bottom: 20px; /* Espacio debajo del título de la tabla */
+}
+
+/* Estilo para los campos de entrada en el formulario */
+.category-form input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Borde del campo de texto */
+    border-radius: 4px; /* Bordes redondeados para el campo de texto */
+}
+
+/* Estilo para el botón de envío en el formulario */
+.category-form input[type="submit"] {
+    background-color: #007bff; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px; /* Bordes redondeados para el botón */
+}
+
+.category-form input[type="submit"]:hover {
+    background-color: #0056b3; /* Color al pasar el ratón sobre el botón */
+}
+
+/* Estilo para mensajes (opcional) */
+.message {
+    text-align: center;
+}
+
+.error-message {
+    background-color: #ffcccc;
+    border: 1px solid #ff0000;
+    color: #ff0000;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.success-message {
+    background-color: #ccffcc;
+    border: 1px solid #00ff00;
+    color: #006600;
+    padding: 10px;
+    border-radius: 5px;    
+    text-align: center;
+}
+
+.error-message, .success-message{
+    width: 30dvw;
+    margin: 0.2rem auto;
+}
+
+.categories-grid {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow wrapping to next line */
+    justify-content: center; /* Center items horizontally */
+    gap: 20px; /* Space between items */
+    margin-top: 20px; /* Space above the grid */
+}
+
+.category-card {
+    background-color: #ffffff; /* White background for cards */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 15px; /* Padding inside the card */
+    text-align: center; /* Center text inside the card */
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth transition for hover effects */
+    width: 200px; /* Fixed width for cards */
+}
+
+.category-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+.category-name {
+    font-size: 1.2em; /* Larger font size for category names */
+    color: #333; /* Darker text color for better readability */
+    margin-top: 10px; /* Space above category name */
+}
+
+#categoryTitle {
+    text-align: center; /* Center align title */
+    margin-bottom: 20px; /* Space below title */
+}
